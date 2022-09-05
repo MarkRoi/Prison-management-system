@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    justify-content: space-between;
+    display: inline-flex;
+    background: rgb(54, 52, 52);
+}
+
+.header #logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.header a #dropdown{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: 30px;
+    
+}
+
+.header h1{
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.column1{
+    float: left;
+    height: 96vh;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 54px;
+    width: 15%;
+    line-height: 50px;
+    background: rgb(221, 203, 131);
+}
+
+.column1 .side_menu{
+    display: inline-flex;
+}
+
+.column1 .side_menu #icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.column1 .side_menu a{
+    padding-left: 6px ;
+}
+
+a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(31, 76, 172);
+    cursor: pointer;
+}
+
+a:focus{
+    color: red;
+}
+
+.column2{
+    width: auto;
+    height: 102vh;
+    margin-left: 22%;
+    background:rgb(173, 170, 170);
+}
+
+h1{
+    color: rgb(28, 13, 65);
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+
+
+form{
+    background: white;
+    width: 60%;
+    height: 40px;
+    padding: 20px;
+    padding-right: 300px;
+    padding-bottom: 40%;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 190px;
+}
+
+table .table-view tr{
+    width: 60%;
+}
+
+
+.footer{
+    width: auto;
+    height: 10vh;
+    padding: 15px;
+    text-align: center;
+    color: rgb(182, 180, 180);
+    background: gray;
+}
+
+.button{
+    background: white;
+    padding: 10px 15px;
+    color: rgb(54, 54, 100);
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: #282828;
+    position: absolute;
+    top: 23%;
+    text-decoration: none;
+    transition: 0.4s;
+    left: 50%;
+}
+
+
+.button:hover{
+    background: orange;
+    cursor: pointer;
+}
+
+/*css for the registration form*/
+
+.box{
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0;
+}
+
+.box .content{
+    width: 950px;
+    height: 1070px;
+    left: 15%;
+    margin: 30px 0px;
+    background: rgb(22, 21, 21);
+    position: relative;
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border: 1px solid black;
+    
+    box-shadow: 38px 38px 56px #1e1e1e, -15px -15px 28px #282828;
+    
+}
+
+.close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 2px 5px 7px 5px;
+    background: orange;
+    box-shadow: 5px 5px 15px #1e1e1e, -5px -5px 15px #282828;
+    
+}
+
+.close-btn:hover{
+    cursor: pointer;
+    background: white ;
+    color: black;
+}
+
+
+.box h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(250, 250, 253);
+    text-align: center;
+    text-decoration: underline;
+}
+
+#entry {
+    padding-right: 300px;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 190px;
+    background: rgb(22, 21, 21);;
+}
+
+.entry{
+    padding-right: 300px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+}
+
+input[type="text"],textarea{
+    border: none;
+    border-bottom: 1px solid rgb(117, 110, 110);
+    background: transparent; 
+    height: 40px;
+    color: rgb(194, 193, 248);
+    font-size: 19px;
+    width: 500px;
+}
+
+textarea{
+    height: 80px; 
+}
+
+.nest{
+    margin-left: 80px;
+    margin-top: -60px;
+}
+
+input[type="submit"],[type="reset"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 19px;
+    padding: 10px;
+    width: 300px;
+    color: white;
+    background-color: blue;
+}
+
+input[type="date"]:hover{
+    cursor: pointer;
+}
+
+.nest input:hover{
+    background-color: red;
+}
